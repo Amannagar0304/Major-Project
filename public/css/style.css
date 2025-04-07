@@ -15,7 +15,7 @@ body {
     background-color: white;
 }
 
-.fa-compass{
+.fa-brands{
     color: #fe424d;
     font-size: 2rem;
 }
@@ -127,4 +127,18 @@ padding-right: 0;
 #map { 
     height: 400px;
     width: 80vh;
+    }
+
+    #hi{
+        top: 50%;
+        bottom: 50%;
+        text-align: center;
+    color: #fe424d;
+    text-decoration: underline;
+
+    }
+    .fa-brands {
+        color: #5242fead;
+        font-size: 2rem;
+        
     }
