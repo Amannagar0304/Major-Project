@@ -61,7 +61,7 @@
                 <p> Moutains</p>
             </div>
             <div class="filter">
-                <div><i class="fa-brands fa-fort-awesome"></i></div>
+                <div><i class="fa-solid fa-fort-awesome"></i></div>
                 <p>Castles</p>
             </div>
 
@@ -106,11 +106,12 @@
             <div class="card col listing-card" >
                 <img src="<%= listing.image.url %>" class="card-img-top" alt="listing_image" style="height: 20rem;">
                 
-                <div class="card-img-overlay">Hello</div>
+                <div class="card-img-overlay"></div>
                 <div class="card-body">
                     <p class="card-text">
                         <b><%= listing.title %><br></b>
-                            &#8377; <%= listing.price %>/night
+                            &#8377; <%= listing.price %><br>
+                            <%= listing.description %>
                             <i class="tax-info">&nbsp; &nbsp;+18% GST</i>
                     </p>
                 </div>
